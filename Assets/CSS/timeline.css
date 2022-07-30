@@ -1,0 +1,195 @@
+    * {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.bottom-view-left-pane-timeline {
+    width: 100%;
+    margin: 15px 0 ;
+
+}
+
+.bottom-view-left-pane-timeline-card {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.bottom-view-left-pane-timeline-card:hover {
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.bottom-view-left-pane-timeline-card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5%;
+    background-color: #F8F9FA;
+
+}
+
+.bottom-view-left-pane-timeline-card-right {
+    width: 95%;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-top-left {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-top-left-icon {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+.bottom-view-left-pane-timeline-card-right-top-left-subreddit {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.bottom-view-left-pane-timeline-card-right-top-left-postedby {
+    font-size: 12px;
+    font-weight: 700;
+    color: #787c7e;
+    margin: 5px;
+    
+
+}
+
+.bottom-view-left-pane-timeline-card-right-top-left-postedby > a {
+    text-decoration: none;
+}
+
+.bottom-view-left-pane-timeline-card-right-top-right {
+
+}
+
+.join-button {
+    background-color: #0079D3;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    width: 60px ;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-right: 10px;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-header {
+
+}
+
+.bottom-view-left-pane-timeline-card-right-header-text {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-header-button{
+
+}
+
+.bottom-view-left-pane-timeline-card-right-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-body-text{
+
+}
+
+.bottom-view-left-pane-timeline-card-right-footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-footer-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: #0079d3;
+    background-color: #f6f7f8;
+    height: 30px;
+    margin-right: 5px;
+    width: 130px;
+}
+
+.bottom-view-left-pane-timeline-card-right-footer-button:hover {
+    background-color:#929597 ;
+}
+
+.material-symbols-outlined{
+    color: #787c7e;
+}
+
+span {
+    color: #787c7e;
+}
+
+.arrow-upward:hover {
+    background-color:#929597;
+
+}
+
+.arrow-downward:hover {
+    background-color:#929597; 
+}
+
+.chat-bubble {
+ 
+    
+}
+
+.chat-bubble-text {
+   
+}
+
+
+@media only screen and (max-width: 650px) {
+
+.bottom-view-left-pane-timeline-card-left {
+    display: none;
+
+}
+
+.bottom-view-left-pane-timeline-card-right-footer-button:nth-child(3) {
+    display: none;
+}
+
+
+}
+
+@media only screen and (min-width:650px) {
+    .bottom-view-left-pane-timeline-card-left-movedright {
+        display:none;
+    }
+}
+
+.bottom-view-left-pane-timeline-card {
+    margin-bottom: 30px;
+}
